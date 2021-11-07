@@ -49,6 +49,7 @@ bot.on('message',(msg)=>{
     }else if(msg.text.toLocaleLowerCase() === '3' | msg.text.toLocaleLowerCase() === '3 неделя'){
         bot.sendMessage(msg.chat.id, 'Лови 3 неделя')
         bot.sendPhoto(msg.chat.id, 'https://github.com/timadag/Y132_BOT/blob/main/1%20неделя.jpg?raw=true')
+        
     }
    
 })
